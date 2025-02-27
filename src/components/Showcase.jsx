@@ -3,7 +3,7 @@ import Alphabet from './Alphabet'
 
 const Showcase = () => {
   return (
-    <div>
+    <div className='z-10'>
       <Alphabet/>
     </div>
   )

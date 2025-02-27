@@ -9,17 +9,20 @@ const Hero = () => {
         <p className='mt-4 text-lg text-gray-500 max-w-md'>A dynamic color palette tool that lets you explore, create, and apply beautiful color schemes effortlessly. Transform your designs with ease.</p>
       </div>
 
-      <div className='w-1/2 md:grid grid-cols-2 hidden grid-cols-3 gap-4 p-10'>
-        <div className='h-40 border border-gray-300 rounded-lg bg-gray-100'></div>
-        <div className='h-28 border border-gray-300 rounded-lg bg-gray-100'></div>
-        <div className='h-32 border border-gray-300 rounded-lg bg-gray-100'></div>
-        <div className='h-32 border border-gray-300 rounded-lg bg-gray-100'></div>
-        <div className='h-40 border border-gray-300 rounded-lg bg-gray-100'></div>
-        <div className='h-28 border border-gray-300 rounded-lg bg-gray-100'></div>
-        <div className='h-28 border border-gray-300 rounded-lg bg-gray-100'></div>
-        <div className='h-32 border border-gray-300 rounded-lg bg-gray-100'></div>
-        <div className='h-40 border border-gray-300 rounded-lg bg-gray-100'></div>
-      </div>
+      <div className='w-1/2 hidden md:mt-6 md:block p-10'>
+        <div className='columns-3 gap-4 space-y-4'>
+            <div className='h-40 border border-gray-100 hover:scale-110 transition ease-in rounded-lg bg-gray-100'></div>
+            <div className='h-28 border border-gray-100 hover:scale-110 transition ease-in rounded-lg bg-gray-100'></div>
+            <div className='h-32 border border-gray-100 hover:scale-110 transition ease-in rounded-lg bg-gray-100'></div>
+            <div className='h-32 border border-gray-100 hover:scale-110 transition ease-in rounded-lg bg-gray-100'></div>
+            <div className='h-40 border border-gray-100 hover:scale-110 transition ease-in rounded-lg bg-gray-100'></div>
+            <div className='h-28 border border-gray-100 hover:scale-110 transition ease-in rounded-lg bg-gray-100'></div>
+            <div className='h-28 border border-gray-100 hover:scale-110 transition ease-in rounded-lg bg-gray-100'></div>
+            <div className='h-32 border border-gray-100 hover:scale-110 transition ease-in rounded-lg bg-gray-100'></div>
+            <div className='h-40 border border-gray-100 hover:scale-110 transition ease-in rounded-lg bg-gray-100'></div>
+        </div>
+        </div>
+
     </div>
   );
 };

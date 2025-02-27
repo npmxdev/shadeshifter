@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
   return (
     <div className="fixed top-2 left-1/2 transform -translate-x-1/2 w-3/4">
-      <nav className="bg-white border-gray-200 border text-white p-3 rounded-full flex justify-between items-center px-6 shadow-md">
+      <nav className="bg-white/90 border-gray-200 border text-white p-3 rounded-full flex justify-between items-center px-6 shadow-md">
         
         <a href='/' className='flex justify-center flex-row items-center'>
             {/* <img src="/shadeshifter_logo.jpeg" alt="Shade Shifter Logo"  className='h-12 mx-3 w-12 rounded-full'/> */}
@@ -18,7 +18,7 @@ const Header = () => {
         </div>
 
         {/* Sign In Button */}
-        <button className="bg-white border-gray-200 border hover:bg-gray-300 text-gray-600 px-4 py-2 rounded-full transition">
+        <button className="bg-white border-gray-200 border hover:bg-gray-200 text-gray-600 px-4 py-2 rounded-full transition">
           Sign In
         </button>
       </nav>
