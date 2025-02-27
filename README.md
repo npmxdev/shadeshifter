@@ -16,7 +16,7 @@ To run Shade Shifter locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/shade-shifter.git
+   git clone https://github.com/npmxdev/shadeshifter.git
    ```
 
 2. Navigate into the project directory:
