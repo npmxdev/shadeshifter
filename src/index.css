@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+
+.card {
+    @apply border-gray-200 hover:scale-110 transition ease-in rounded-lg bg-gray-100
+}
